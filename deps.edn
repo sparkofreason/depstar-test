@@ -1,5 +1,4 @@
 {:paths ["resources" "src"]
- :deps  {provisdom/math         {:git/url "https://github.com/Provisdom/math.git"
-                                 :sha "6be5361234a99b9ba5af4a92e5128413e30f47b2"}}
+ :deps  {uncomplicate/neanderthal {:mvn/version "0.23.1"}}
  :aliases {:uberjar {:extra-deps {seancorfield/depstar {:mvn/version "0.1.7"}}
                      :main-opts  ["-m" "hf.depstar.uberjar" "test.jar"]}}}
