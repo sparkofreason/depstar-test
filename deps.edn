@@ -1,5 +1,5 @@
 {:paths ["resources" "src"]
- :deps  {compute/math {:git/url "git@github.com:ComputeSoftware/math.git"
-                       :sha     "24b284b1144cd16ee0cc0dfb2cb6ab92703c9f5e"}}
+ :deps  {provisdom/math         {:git/url "https://github.com/Provisdom/math.git"
+                                 :sha "6be5361234a99b9ba5af4a92e5128413e30f47b2"}}
  :aliases {:uberjar {:extra-deps {seancorfield/depstar {:mvn/version "0.1.7"}}
                      :main-opts  ["-m" "hf.depstar.uberjar" "test.jar"]}}}
